@@ -17,7 +17,7 @@ model = pickle.load(open('model_iris', 'rb'))
 
 @app.get("/")
 def home():
-    return {"msg": "HELLO WORLD"}
+    return {"msg": "ML model for IRIS PREDICTION"}
 
 
 @app.post('/make_predictions')
