@@ -16,7 +16,7 @@ jobs:
       - run:
           name: Lint Code
           command: |
-            flake8
+            flake8 main.py
   # API Tests
   test:
     docker:
